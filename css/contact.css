@@ -1,0 +1,39 @@
+._contact{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px !important;
+    box-sizing: border-box;
+}
+._confor {
+  align-content: flex-start;
+}
+
+._conform {
+  outline: none;
+  border-radius: 12px !important;
+}
+
+._conform {
+  background-color: #ddd !important;
+  outline: none !important;
+}
+
+._conbtn {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 12px;
+}
+
+._concol2 {
+  border: 0.5px solid #ddd;
+  width: 32rem;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+._conspn {
+  display: block;
+}
