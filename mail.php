@@ -6,7 +6,7 @@ $name = $_POST['name'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
 
-$to = "dalalamit.201@gmail.com";
+$to = "info@bestinfrasolutions.in";
 
 $subject = "From Best Infra Solutions";
 
@@ -22,7 +22,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <dalalamit.201@gmail.com>' . "\r\n";
+$headers .= 'From: <info@bestinfrasolutions.in>' . "\r\n";
 // $headers .= 'Bcc: kkhurana696@gmail.com' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
