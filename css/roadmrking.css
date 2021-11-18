@@ -1,0 +1,38 @@
+._contact {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px !important;
+  box-sizing: border-box;
+}
+
+._concol2 {
+  margin-bottom: 60px !important;
+}
+
+._brdr{
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+/* For Card */
+._cardwid {
+  width: 20rem;
+}
+
+/* For Table */
+.tab {
+  width: 12rem;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 8px 8px 9px 12px;
+  color: #6e6e6e;
+}
+
+.tab2 {
+  width: 20rem;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 8px 8px 9px 12px;
+  color: #6e6e6e;
+}
