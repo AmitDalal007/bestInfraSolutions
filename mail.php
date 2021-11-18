@@ -29,7 +29,7 @@ $headers .= 'From: <info@bestinfrasolutions.in>' . "\r\n";
 @mail($to,$subject,$message,$headers);
 
 echo "your request has been accepted successfully!";
-// header( "refresh:5;url=http://cakeloverspoint.com" );
+// header( "refresh:5;url=http://xxxyyyzzz.com" );
 header('Location: contact.html');
 }
 else
