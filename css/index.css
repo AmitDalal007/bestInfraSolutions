@@ -2,3 +2,12 @@
     color: var(--bs-body-color) !important;
     text-decoration: none !important;
 }
+
+._pimg{
+    width: 450px !important;
+    margin: auto !important;
+}
+
+._brdr{
+    border: none !important;
+}
