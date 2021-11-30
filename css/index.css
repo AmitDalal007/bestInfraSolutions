@@ -4,10 +4,14 @@
 }
 
 ._pimg{
-    width: 450px !important;
+    width: 400px !important;
     margin: auto !important;
 }
 
 ._brdr{
     border: none !important;
+}
+
+._cptxt{
+    font-size: 30px;
 }
