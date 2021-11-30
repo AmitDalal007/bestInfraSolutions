@@ -24,15 +24,13 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
 $headers .= 'From: <dalalamit.201@gmail.com>' . "\r\n";
-// $headers .= 'From: <info@bestinfrasolutions.in>' . "\r\n";
-// $headers .= 'Bcc: kkhurana696@gmail.com' . "\r\n";
+// $headers .= 'Bcc: xyz@gmail.com' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
 @mail($to,$subject,$message,$headers);
 
 echo "your request has been accepted successfully!";
-// header( "refresh:5;url=http://xxxyyyzzz.com" );
-header('Location: contact.html');
+// header('Location: contact.html');
 }
 else
 {
