@@ -6,8 +6,7 @@ $name = $_POST['name'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
 
-$to = "dalalamit.201@gmail.com";
-// $to = "info@bestinfrasolutions.in";
+$to = "info@bestinfrasolutions.in";
 
 $subject = "From Best Infra Solutions";
 
@@ -23,14 +22,14 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <dalalamit.201@gmail.com>' . "\r\n";
+$headers .= 'From: <info@bestinfrasolutions.in>' . "\r\n";
 // $headers .= 'Bcc: xyz@gmail.com' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
+header('Location: https://suspicious-boyd-2d35d1.netlify.app/contact.html');
 @mail($to,$subject,$message,$headers);
 
 echo "your request has been accepted successfully!";
-// header('Location: contact.html');
 }
 else
 {
