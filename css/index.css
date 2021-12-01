@@ -1,17 +1,25 @@
-._linktxt{
-    color: var(--bs-body-color) !important;
-    text-decoration: none !important;
+._linktxt {
+  color: var(--bs-body-color) !important;
+  text-decoration: none !important;
 }
 
-._pimg{
-    width: 400px !important;
-    margin: auto !important;
+._pimg {
+  width: 360px !important;
+  margin: auto !important;
 }
 
-._brdr{
-    border: none !important;
+._brdr {
+  border: none !important;
 }
 
-._cptxt{
-    font-size: 30px;
+._cptxt {
+  font-size: 25px;
+}
+
+._abpr6a {
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+._abpr6a:hover {
+  box-shadow: 10px 10px 30px 10px #c5c4c4 !important;
 }
